@@ -1,4 +1,289 @@
-
-.main{
-    color: brown;
+main {
+  width: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
+.navbar {
+  width: 75%;
+  margin: auto;
+  height: 100%;
+  position: relative;
+  margin-top: 70px;
+}
+.nav-logo {
+  font-size: 80px;
+  background-color: #2cb1bc;
+  border-radius: 50%;
+  padding-right: 25px;
+  padding-left: 25px;
+  width: fit-content;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  color: whitesmoke;
+}
+.nav-text {
+  position: relative;
+  color: rgb(9, 9, 9);
+  left: 110px;
+  bottom: 50px;
+  font-size: 25px;
+}
+
+.main-body {
+  width: 75%;
+
+  margin: auto;
+}
+
+.info-banner {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: center;
+}
+
+.about {
+  margin-left: 20px;
+  text-align: justify;
+}
+.about h1 {
+  font-size: 50px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.about p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  line-height: 40px;
+  word-spacing: 3px;
+}
+
+.portfolio-heading {
+  display: flex;
+  gap: 20px;
+}
+
+.portfolio-text {
+  font-size: 50px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  line-height: 40px;
+  word-spacing: 3px;
+}
+
+.builder-text {
+  color: #2cb1bc;
+  font-size: 60px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  line-height: 40px;
+  word-spacing: 3px;
+}
+
+.app-text {
+  font-size: 50px;
+  font-weight: 800;
+  margin-bottom: 20px;
+  line-height: 40px;
+  word-spacing: 3px;
+}
+
+.image-section {
+  margin: 10px;
+  padding: 10px;
+}
+
+.image-section img {
+  opacity: 0.1;
+  border-radius: 10px;
+}
+
+.btn-div {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  align-items: center;
+  padding: 10px;
+}
+
+.btn {
+  outline: none;
+  border: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background-color: #2cb1bc;
+  color: white;
+  font-size: larger;
+  letter-spacing: 4px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #17717a;
+  transition-duration: 1s;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  background-color: #17717a;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap:20px; 
+}
+.footer h1{
+margin-top: 5px;
+color:whitesmoke
+}
+.footer ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  margin-bottom: 15px;
+  
+}
+
+.footer ul li{
+  border-right:3px solid #eee;
+  padding-right: 15px;
+  
+  
+}
+.footer ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+/* login and register page css */
+
+.card-section{
+height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.card-container{
+  margin: auto;
+  border: 1px solid ;
+  border-radius:10px;
+  width: max-content;
+ 
+}
+.card-header{
+  border-bottom: 1px solid;
+  height: 8px;
+  background-color: #2CB1BC;
+  border-radius: 50px 50px 0 0;
+
+}
+
+.form-control{
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 10px;
+  font-size: large;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-top: 10px;
+}
+
+.card-body .form-control input{
+  margin:5px;
+  padding: 15px;
+  border: 1px solid;
+  border-radius: 5px;
+  width: 320px;
+  background-color: #F8FAFC;
+}
+
+.card-body .form-control .form-label{
+  margin-left: 5px;
+  font-weight: 100;
+  font-size: medium;
+}
+
+.card-logo{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.card-logo .card-logo-name{
+ font-size: 40px;
+ font-weight: bolder;
+ color: white;
+ border: 1px solid;
+ border-radius: 50%;
+ padding: 10px 20px 10px 20px;
+ background-color: #2CB1BC;
+}
+
+.card-logo-text{
+  font-size: 20px;
+  font-weight: bolder;
+  color: #2CB1BC;
+  
+}
+.card-body h2{
+  text-align: center;
+  margin-top: 15px;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+
+.login-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-top: 5px;
+
+}
+.login-button button{
+  padding: 8px 40px 8px 40px;
+  cursor: pointer;
+  background-color: #2CB1BC;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-size: medium;
+  letter-spacing: 2px;
+}
+.login-button button:hover{
+  background-color: #10747d;
+  transition-duration: 1s;
+  transition-delay: 0.1s;
+  color: white;
+}
+
+.unregister-btn{
+  margin:10px 0 10px 0;
+  padding: 5px;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: medium;
+}
+.unregister-btn  span a{
+  text-decoration: none;
+ 
+  color: #10747d;
+  font-size: 20px;
+}
+
